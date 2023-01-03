@@ -1,0 +1,188 @@
+/* to target ids we need to use the # symbol  */
+.upper-right{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body{
+    text-align: center;
+    
+}
+
+h1,h2,h3{
+    font-family: 'Montserrat', sans-serif;
+}
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+    text-align: left;
+}
+
+.section-heading{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+
+
+
+p{
+    font-family: 'Nunito Sans', sans-serif;
+    color: #bdbdbd;
+    font-size: 1.2rem;
+}
+
+.container-fluid{
+    padding: 7% 15% ;
+}
+
+/* sections */
+.colored-section{
+    background-color: #fc7085;
+}
+
+.white-section{
+    background-color: white;
+}
+
+.navbar{
+    padding:0 0 4.5rem ;
+}
+
+/* navigation bar */
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+    
+}
+
+/* download buttons */
+.download-button{
+    margin: 5% 3% 5% 0% ;
+}
+
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: center;
+}
+
+/* title img */
+.title-img{
+    width: 18%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 23%;
+}
+
+
+#features{ 
+    position: relative;
+    z-index:1 ;
+}
+
+.feature-box{
+    padding: 5%;
+}
+
+.feature-title{
+    font-size: 1.7rem;
+
+}
+
+.fa-solid{
+    color: black;
+    margin:5% 0%;
+}
+
+.fa{
+    color: #fc7085;
+}
+
+.fa:hover{
+    color: rgb(255, 0, 85);
+}
+
+/* testimonial section */
+#testimonials{
+    color: white;
+}
+
+.testimonial-text{
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width: 20%;
+    border-radius: 100%;
+    margin:20px;
+}
+
+#press{
+    padding-bottom: 5%;;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.price-text{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+#pricing{
+    padding:100px ;
+}
+
+#pricing h2{
+    font-size: 2rem;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+    text-align: center;
+}
+
+/* call to action */
+
+
+.cta-text{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 3rem;
+    color: white;
+    line-height: 1.5;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+@media (max-width: 1028px){
+    .title-img{
+        text-align: center;
+        position: static;
+        width : 41% ;
+        transform: rotate(0deg);
+    }
+
+
+    #title{
+        text-align: center;
+    }
+}
